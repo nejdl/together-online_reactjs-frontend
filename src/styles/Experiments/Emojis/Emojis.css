@@ -1,0 +1,33 @@
+.emojiButtons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.emojisContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: var(--gapM);
+  padding-top: var(--gapXXL);
+}
+
+@media screen and (max-height: 500px) {
+  .emojisContainer {
+    padding-top: 80px;
+  }
+}
+
+.emojis footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  /* width: calc(100% - (var(--gapM) * 2)); */
+  width: 100%;
+}

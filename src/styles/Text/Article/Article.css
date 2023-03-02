@@ -1,0 +1,70 @@
+.article {
+  background-color: var(--white);
+  border: 1px solid black;
+  hyphens: auto;
+}
+
+.article .openButton {
+  margin-bottom: 0;
+}
+
+.article__title {
+  position: relative;
+}
+
+/* PADDING & BORDERS IN ARTICLE TEXTS */
+/* first of class .article */
+.article {
+  border-top: 1px solid black;
+  overflow-x: hidden;
+}
+/* all .article elements but the first */
+.article ~ .article {
+  border: 1px solid black;
+  border-top: none;
+}
+
+/* remove borders left / right on mobile */
+@media screen and (max-width: 500px) {
+  /* first of class .article */
+  .article {
+    border-left: none;
+    border-right: none;
+  }
+  /* all other .article elements */
+  .article ~ .article {
+    border-left: none;
+    border-right: none;
+  }
+}
+
+.article__text {
+  text-indent: var(--gapXL);
+  padding: 0 var(--gapM);
+}
+
+.article__paragraph {
+  padding: 0;
+  margin: 0;
+}
+
+/* first of class .article__paragraph */
+.article__paragraph {
+  border-top: 1px solid var(--black);
+}
+/* all other .article__paragraph elements */
+.article__paragraph ~ .article__paragraph {
+  border-top: none;
+}
+
+.article__paragraph :first-child {
+  text-indent: 0;
+  padding-top: var(--gapM);
+}
+.article__paragraph :last-child {
+  padding-bottom: var(--gapM);
+}
+
+.article .reference {
+  border-top: 1px solid var(--black);
+}

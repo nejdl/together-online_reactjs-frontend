@@ -1,0 +1,43 @@
+:root {
+  /* FONT-SIZES */
+  --fontHeadline: 40px/33px 'ABCGintoNord-UltraItalic-Trial', sans-serif;
+  --fontVariable: 120px 'tiny_5x3regular', monospace;
+  --fontSizeXL: 40px;
+  --fontSizeL: 30px;
+  --fontSizeM: 24px;
+  --fontSizeS: 18px;
+  --fontSizeSinCaps: 17px;
+  --fontSizeXS: 12px;
+
+  /* GAPS */
+  --gapXS: 3px;
+  --gapS: 5px;
+  --gapM: 10px;
+  --gapL: 15px;
+  --gapXL: 20px;
+  --gapXXL: 50px;
+
+  /* CLOSE / OPEN BUTTONS */
+  --closeButtonIcon: 16px;
+  --openButtonIcon: 36px;
+
+  /* BORDERS */
+  --borderRadius: 10px;
+
+  /* COLORS */
+  --pink: #ff97bd;
+  --green: #74ff00;
+  --purple: #5600f9;
+  --white: #ffffff;
+  --black: #000000;
+
+  /* BLUR */
+  --blurValue: 5px;
+
+  /* BOX-SHADOWS */
+  --boxShadowL: 5px 5px 10px 0px #ffffff40 inset, 4px 4px 10px 0px #00000040;
+  --boxShadowLWhite: 2px 2px 10px 0px #76767640 inset,
+    0px 4px 10px 0px #00000040;
+  --boxShadowS: 5px 5px 10px 0px #ffffff40 inset, 0px 4px 4px 0px #00000040;
+  --boxShadowSWhite: 2px 2px 10px 0px #76767640 inset, 0px 4px 4px 0px #00000040;
+}

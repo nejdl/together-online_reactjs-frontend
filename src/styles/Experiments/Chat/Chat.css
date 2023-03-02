@@ -1,0 +1,129 @@
+/* FIX ME: cleanup */
+
+.ChatWindow {
+  flex: 1 1 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 60vh;
+  border: 1px solid black;
+  border-bottom: 0;
+}
+
+.buttonContainer {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: stretch;
+}
+
+.buttonContainer button {
+  font-size: var(--fontSizeS);
+  width: 100%;
+  color: inherit;
+}
+
+.buttonContainer button.active.top {
+  border-bottom: 1px solid white;
+  border-radius: var(--borderRadius) var(--borderRadius) 0 0;
+}
+
+.contentContainer {
+  flex: 1 1 100%;
+  background-color: white;
+  padding: var(--gapS);
+  border-radius: var(--borderRadius);
+}
+
+/* CHAT */
+.chatContainer {
+  flex: 1 1 100%;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  background-color: white;
+  border-radius: var(--borderRadius);
+}
+
+.ChatWindow button,
+.submitForm .inputField,
+.submitForm .inputButton {
+  text-transform: uppercase;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: var(--borderRadius);
+  padding: var(--gapXS) var(--gapS);
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
+    border-radius 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.chatMessage {
+  border-bottom: 1px solid black;
+  padding: var(--gapS);
+}
+.chatMessage .messageMetaData {
+  display: flex;
+  align-items: stretch;
+  font-size: var(--fontSizeXS);
+  color: grey;
+}
+.chatMessage .messageMetaData div {
+  width: 100%;
+}
+.chatMessage .messageMetaData .dateAndTime {
+  display: flex;
+}
+.chatMessage .messageMetaData .dateAndTime :last-child {
+  padding-left: var(--gapS);
+}
+.submitForm {
+  background-color: black;
+  position: sticky;
+  bottom: 0;
+  right: 0;
+}
+.submitForm form {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+}
+.submitForm form :first-child {
+  flex: 1 0 66.6666666667%;
+}
+.submitForm form :last-child {
+  flex: 1 1 33.3333333333%;
+}
+.submitForm .inputField {
+  text-transform: none !important;
+  font-size: var(--fontSizeS);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.submitForm .inputField::placeholder {
+  text-transform: uppercase;
+  color: grey;
+}
+.submitForm .inputButton {
+  color: var(--black);
+  width: 100% !important;
+  font-size: var(--fontSizeS);
+  font-weight: normal;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.submitForm .inputButton:disabled {
+  color: lightgrey;
+}
+.submitForm .inputButton:disabled:hover {
+  color: lightgrey;
+}
+.question {
+  padding: var(--gapS);
+  font-size: var(--fontSizeXL);
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid black;
+  line-height: 1.1;
+}

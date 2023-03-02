@@ -1,0 +1,19 @@
+.EmojiButton {
+  max-width: 150px;
+  max-height: 150px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .EmojiButton {
+    width: 25vw;
+    height: 25vw;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  .EmojiButton {
+    width: 20vh;
+    height: 20vh;
+  }
+}

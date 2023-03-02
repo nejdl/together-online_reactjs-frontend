@@ -1,0 +1,53 @@
+.colorMenu {
+  display: flex;
+  padding: var(--gapM);
+  z-index: 1;
+}
+
+.App .colorMenu {
+  position: absolute;
+  top: 0;
+  max-width: 500px;
+  /* width: calc(100% - (var(--gapM) * 2)); */
+  width: 100%;
+}
+
+.emojis .colorMenu {
+  position: sticky;
+  z-index: 2;
+}
+
+.colorMenu__column {
+  flex: 1 0 50%;
+}
+
+.colorMenu__column > div {
+  height: var(--gapS);
+}
+
+/* COLORS IN COLOR MENU */
+/* left column */
+#colorMenu__column--left div:nth-child(1) {
+  background-color: var(--green);
+}
+
+#colorMenu__column--left div:nth-child(2) {
+  background-color: var(--white);
+}
+
+#colorMenu__column--left div:nth-child(3) {
+  background-color: var(--black);
+}
+
+/* right column */
+#colorMenu__column--right div:nth-child(1) {
+  background-color: var(--pink);
+}
+
+#colorMenu__column--right div:nth-child(2) {
+  background-color: var(--purple);
+}
+
+#colorMenu__column--right div:nth-child(3) {
+  background-color: var(--green);
+}

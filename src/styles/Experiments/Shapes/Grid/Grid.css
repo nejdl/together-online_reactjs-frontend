@@ -1,0 +1,66 @@
+.Grid {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.Grid .Row {
+  display: flex;
+}
+.Grid .Row .Columm {
+  height: calc((100vw) / 5);
+  width: calc((100vw) / 5);
+  cursor: pointer;
+}
+@media screen and (max-width: 599px) {
+  .Grid .Row .Columm {
+    height: calc(100vw / 5);
+    width: calc(100vw / 5);
+  }
+}
+.Grid .Row .Columm .ColumnCell {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.Grid .Row .Columm .ColumnCell.border {
+  box-shadow: 0 0 0 1px var(--green);
+}
+.Grid .Row .Columm .ColumnCell div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.Grid .Row .Columm .ColumnCell .ColumnCell_div {
+  -webkit-transition: background-color 0.3s ease-in-out,
+    border-radius 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+}
+.Grid .Row .Columm .ColumnCell .ColumnCell_div.shape1 {
+  background-color: transparent;
+  border-radius: 0px;
+}
+.Grid .Row .Columm .ColumnCell .ColumnCell_div.shape2 {
+  background-color: var(--green);
+  border-radius: 0px;
+}
+.Grid .Row .Columm .ColumnCell .ColumnCell_div.shape3 {
+  background-color: var(--green);
+  border-radius: 500px 0px 0px 0px;
+}
+.Grid .Row .Columm .ColumnCell .ColumnCell_div.shape4 {
+  background-color: var(--green);
+  border-radius: 0px 500px 0px 0px;
+}
+.Grid .Row .Columm .ColumnCell .ColumnCell_div.shape5 {
+  background-color: var(--green);
+  border-radius: 0px 0px 500px 0px;
+}
+.Grid .Row .Columm .ColumnCell .ColumnCell_div.shape6 {
+  background-color: var(--green);
+  border-radius: 0px 0px 0px 500px;
+}
+.Grid .Row .Columm .ColumnCell .ColumnCell_div.shape7 {
+  background-color: var(--green);
+  border-radius: 500px;
+}

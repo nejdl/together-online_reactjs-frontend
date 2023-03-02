@@ -1,0 +1,570 @@
+/* FONT SIZES & COLORS */
+.tiny5x3-20-normal-salmon-100-1px {
+  color: var(--pink);
+  font-size: var(--font-size-xxs);
+  font-weight: 400;
+  font-style: normal;
+}
+.tiny5x3-20-normal-salmon-82-5px {
+  color: var(--pink);
+  font-size: var(--font-size-xxxs);
+  font-weight: 400;
+  font-style: normal;
+}
+.tiny5x3-300-normal-chartreuse-250px {
+  color: var(--green);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  font-style: normal;
+}
+.tiny5x3-300-normal-chartreuse-170px {
+  color: var(--green);
+  font-size: 180px;
+  font-weight: 400;
+  font-style: normal;
+}
+.tiny5x3-300-normal-chartreuse-110px {
+  color: var(--green);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  font-style: normal;
+}
+.tiny5x3-20-normal-salmon-76-6px {
+  color: var(--pink);
+  font-size: var(--font-size-xxxxs);
+  font-weight: 400;
+  font-style: normal;
+}
+.tiny5x3-300-normal-chartreuse-130px {
+  color: var(--green);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  font-style: normal;
+}
+.tiny5x3-300-normal-chartreuse-140px {
+  color: var(--green);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+.neuehaasgrotesktextpro-55roman-normal-black-18px {
+  color: var(--black);
+  /* font-family: 'Neue Haas Grotesk Text', sans-serif; */
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tiny5x3-20-normal-salmon-64-8px {
+  color: var(--pink);
+  font-size: 90px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* INDIVIDUAL LETTERS */
+.i-1 {
+  -webkit-text-stroke: 5px var(--green);
+  color: var(--green);
+  font-size: 360px;
+  font-weight: 400;
+  left: 308px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 495px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.n-3 {
+  left: 361px;
+  letter-spacing: 0;
+  line-height: 58.9px;
+  position: absolute;
+  top: 198px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.e-5 {
+  left: 371px;
+  letter-spacing: 0;
+  line-height: 58.9px;
+  position: absolute;
+  top: 235px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.i {
+  color: var(--pink);
+  font-size: 220px;
+  font-weight: 400;
+  left: 292px;
+  letter-spacing: 0;
+  line-height: 58.9px;
+  position: absolute;
+  top: 455px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.t-3 {
+  -webkit-text-stroke: 5px var(--green);
+  left: 440px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  top: 190px;
+  font-size: 230px;
+}
+
+.text-2 {
+  -webkit-text-stroke: 5px var(--green);
+  left: 30px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 348px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.t-2 {
+  -webkit-text-stroke: 5px var(--green);
+  color: var(--green);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 180px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  /* font-size: 250px;
+  left: 46px; */
+  font-size: 230px;
+  left: 16px;
+}
+
+.e-3 {
+  color: var(--pink);
+  font-size: 157.3px;
+  font-weight: 400;
+  left: 143px;
+  letter-spacing: 0;
+  line-height: 58.9px;
+  position: absolute;
+  top: 203px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.r-1 {
+  left: 130px;
+  letter-spacing: 0;
+  line-height: 58.9px;
+  position: absolute;
+  top: 336px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.e-4 {
+  left: 134px;
+  letter-spacing: 0;
+  line-height: 58.9px;
+  position: absolute;
+  top: 313px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.t {
+  color: var(--pink);
+  font-size: 130px;
+  font-weight: 400;
+  left: 315px;
+  letter-spacing: 0;
+  line-height: 58.9px;
+  position: absolute;
+  top: 173px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.n-2 {
+  -webkit-text-stroke: 5px var(--green);
+  /* left: 193px; */
+  left: 166px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 520px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-size: 190px;
+}
+
+.n-1 {
+  -webkit-text-stroke: 5px var(--green);
+  left: 340px;
+  /* left: 306px; */
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 300px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-size: 310px;
+}
+
+.e-6 {
+  color: var(--pink);
+  font-size: 100px;
+  font-weight: 400;
+  left: 187px;
+  letter-spacing: 0;
+  line-height: 58.9px;
+  position: absolute;
+  top: 473px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.o {
+  color: var(--pink);
+  font-size: 140px;
+  font-weight: 400;
+  left: 249px;
+  letter-spacing: 0;
+  line-height: 58.9px;
+  position: absolute;
+  top: 155px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.h-1 {
+  color: var(--pink);
+  font-size: 70px;
+  font-weight: 400;
+  left: 150px;
+  letter-spacing: 0;
+  line-height: 58.9px;
+  position: absolute;
+  top: 287px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.w-1 {
+  left: 100px;
+  letter-spacing: 0;
+  line-height: 70px;
+  position: absolute;
+  top: 430px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.e-1 {
+  -webkit-text-stroke: 5px var(--green);
+  left: 448px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 131px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.e-2 {
+  -webkit-text-stroke: 5px var(--green);
+  color: var(--green);
+  font-size: 160px;
+  font-weight: 400;
+  left: 123px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 524px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.w-5 {
+  left: -1px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 492px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.w-2 {
+  -webkit-text-stroke: 5px var(--green);
+  left: 15px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 406px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.t-5 {
+  left: 366px;
+  letter-spacing: 0;
+  line-height: 58.9px;
+  position: absolute;
+  top: 266px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.n-4 {
+  left: 231px;
+  letter-spacing: 0;
+  line-height: 58.9px;
+  position: absolute;
+  top: 462px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.e {
+  -webkit-text-stroke: 5px var(--green);
+  left: 147px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 57px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-size: 310px;
+}
+
+.n {
+  color: var(--pink);
+  font-size: 145px;
+  font-weight: 400;
+  left: 331px;
+  letter-spacing: 0;
+  line-height: 58.9px;
+  position: absolute;
+  top: 342px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.t-1 {
+  -webkit-text-stroke: 5px var(--green);
+  color: var(--green);
+  font-size: 180px;
+  font-weight: 400;
+  left: 348px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 36px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.w-4 {
+  left: 120px;
+  letter-spacing: 0;
+  line-height: 58.9px;
+  position: absolute;
+  top: 380px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.l {
+  -webkit-text-stroke: 5px var(--green);
+  color: var(--green);
+  font-size: 310px;
+  font-weight: 400;
+  left: 352px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 410px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.g-1 {
+  -webkit-text-stroke: 5px var(--green);
+  color: var(--green);
+  font-size: 315px;
+  font-weight: 400;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 80px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.o-2 {
+  left: 390px;
+  font-size: 150px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  /* top: 210px; */
+  top: 237px;
+}
+
+.o-1 {
+  -webkit-text-stroke: 5px var(--green);
+  color: var(--green);
+  font-size: 390px;
+  font-weight: 400;
+  left: 290px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 0px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.t-4 {
+  color: var(--pink);
+  font-size: 120px;
+  font-weight: 400;
+  left: 135px;
+  letter-spacing: 0;
+  line-height: 58.9px;
+  position: absolute;
+  top: 252px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.w-3 {
+  -webkit-text-stroke: 5px var(--green);
+  left: 70px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 525px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.text-1 {
+  left: 155px;
+  letter-spacing: 0;
+  line-height: 58.9px;
+  position: absolute;
+  top: 357px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.w {
+  left: 147px;
+  letter-spacing: 0;
+  line-height: 58.9px;
+  position: absolute;
+  top: 462px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.e-7 {
+  -webkit-text-stroke: 5px var(--green);
+  left: 7px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 300px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-size: 190px;
+}
+
+.g {
+  color: var(--pink);
+  font-size: 170px;
+  font-weight: 400;
+  left: 199px;
+  letter-spacing: 0;
+  line-height: 58.9px;
+  position: absolute;
+  top: 183px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.h {
+  -webkit-text-stroke: 5px var(--green);
+  color: var(--green);
+  font-size: 170px;
+  font-weight: 400;
+  left: 54px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 235px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.o-3 {
+  left: 341px;
+  letter-spacing: 0;
+  line-height: 58.9px;
+  position: absolute;
+  top: 295px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.r {
+  -webkit-text-stroke: 5px var(--green);
+  left: 42px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 311px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.n-5 {
+  -webkit-text-stroke: 5px var(--green);
+  left: 413px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 120px;
+  font-size: 160px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.l-1 {
+  color: var(--pink);
+  font-size: 200px;
+  font-weight: 400;
+  left: 315px;
+  letter-spacing: 0;
+  line-height: 58.9px;
+  position: absolute;
+  top: 400px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}

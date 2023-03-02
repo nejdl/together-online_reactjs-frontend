@@ -1,0 +1,21 @@
+.EmojiBubble {
+  position: absolute;
+  animation: bubble 6s ease-out;
+  object-fit: contain;
+  pointer-events: none;
+  transform: translateX(-50%);
+}
+
+.EmojiBubble img {
+  height: 100%;
+  width: 100%;
+}
+
+@keyframes bubble {
+  from {
+    bottom: -30%;
+  }
+  to {
+    bottom: 130%;
+  }
+}

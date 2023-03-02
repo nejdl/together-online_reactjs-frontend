@@ -1,0 +1,25 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.shapes {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--purple);
+}
+
+.shapes header,
+.shapes footer {
+  width: 100%;
+}
+
+.shapes main {
+  flex: 1 0 auto;
+  max-width: none;
+  display: flex;
+  align-items: center;
+  padding: var(--gapM) 0;
+}

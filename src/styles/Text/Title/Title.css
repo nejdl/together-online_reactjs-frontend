@@ -1,0 +1,64 @@
+.title {
+  text-transform: uppercase;
+}
+
+.title h2 {
+  font: var(--fontHeadline);
+  padding-top: calc(var(--gapM) - var(--gapXS));
+}
+
+.title h3 {
+  font-size: var(--fontSizeSinCaps);
+}
+
+.title.white {
+  color: var(--white);
+}
+
+.title.black {
+  color: var(--black);
+}
+
+.title.purple {
+  color: var(--purple);
+}
+@media screen and (max-width: 402px) and (min-width: 350px) {
+  /* force prettier line break for emojis title question */
+  .title.purple {
+    padding-right: 90px;
+  }
+}
+
+.title.pink {
+  color: var(--pink);
+}
+
+.title.green {
+  color: var(--green);
+}
+
+/* EXPERIMENT PAGES */
+.experiment .title {
+  margin: 0 var(--gapM) var(--gapM) var(--gapM);
+}
+
+.experiment > header > .title h2 {
+  padding-top: var(--gapXS);
+}
+
+/* TITLE ON EMOJI PAGE */
+.emojis .title {
+  margin-right: var(--gapXXL);
+}
+
+/* ARTICLES (ON EDITORIAL PAGE) */
+.article .title {
+  padding-top: var(--gapS);
+  cursor: pointer;
+}
+
+.article .subtitle {
+  padding-top: calc(var(--gapM) - var(--gapXS));
+  width: calc(100% - var(--openButtonIcon));
+  hyphens: none;
+}

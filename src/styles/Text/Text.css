@@ -1,0 +1,48 @@
+.text {
+  padding: var(--gapM);
+  margin: 0;
+}
+
+.text.leadParagraph {
+  margin: var(--gapXL) var(--gapM);
+  font-size: var(--fontSizeM);
+  padding: 0;
+}
+
+/* QUOTE */
+.text.quote {
+  text-align: center;
+  font-size: var(--fontSizeM);
+}
+
+/* REFERENCE */
+.text.reference {
+  font-size: var(--fontSizeXS);
+}
+
+.text.reference a {
+  text-decoration: underline;
+}
+
+.text.reference a:hover {
+  color: var(--pink);
+}
+
+/* SUP */
+sup {
+  font-size: var(--fontSizeXS);
+  line-height: 0.9;
+}
+
+ol {
+  margin: 0;
+  padding-right: var(--gapXL);
+}
+
+li {
+  padding-bottom: var(--gapM);
+}
+
+li:last-child {
+  padding-bottom: 0 !important;
+}

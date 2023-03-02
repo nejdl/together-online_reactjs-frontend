@@ -1,0 +1,15 @@
+* {
+  /* border: 1px solid black; */
+}
+
+main,
+header,
+footer {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  padding-bottom: var(--gapM);
+}

@@ -1,0 +1,103 @@
+.button {
+  border-style: none;
+  padding: var(--gapS) var(--gapM);
+  border-radius: var(--borderRadius);
+  margin: var(--gapM) var(--gapM) 0 var(--gapM);
+  box-shadow: var(--boxShadowS);
+  font-size: var(--fontSizeS);
+  position: relative;
+  cursor: pointer;
+}
+
+.full-width {
+  flex: 1 0 calc(100% - var(--gapM) * 2);
+}
+
+.button__title {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: var(--fontSizeS);
+  border: none;
+  background-color: transparent;
+  color: inherit;
+  text-align: left;
+  padding: 0;
+  cursor: pointer;
+}
+
+.button__text {
+  margin-top: var(--gapM);
+}
+
+/* FOOTER */
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* CREDITS */
+.button.credits {
+  margin-left: auto;
+}
+
+.button.full-width.credits {
+  margin-left: var(--gapM);
+}
+
+/* IMPRINT */
+.button.imprint {
+  width: calc(100% - var(--gapM) * 2);
+}
+
+/* BACK BUTTON */
+.button.back {
+}
+
+/* ONLINE COUNTER BUTTON */
+.button.online-counter {
+  width: fit-content;
+  cursor: default;
+  margin-top: var(--gapXXL);
+}
+.button.online-counter button {
+  cursor: default;
+}
+
+/* COLORS */
+.button.pink {
+  background-color: var(--pink);
+}
+
+.button.green {
+  color: black;
+  background-color: var(--green);
+}
+
+.button.purple {
+  background-color: var(--purple);
+  color: var(--white);
+}
+
+.button.white {
+  background-color: var(--white);
+  box-shadow: var(--boxShadowSWhite);
+}
+
+.button.black {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+/* LINKS IN BUTTON */
+.button a {
+  text-decoration: underline;
+}
+
+.button a:hover {
+  color: var(--pink);
+}
+
+.button.pink a:hover {
+  color: var(--green);
+}

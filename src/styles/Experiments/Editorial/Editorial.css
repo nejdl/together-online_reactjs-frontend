@@ -1,0 +1,50 @@
+.text-container {
+  padding: var(--gapM);
+  font-size: var(--fontSizeS);
+}
+
+.overlay {
+  position: fixed;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  pointer-events: none;
+  background: var(--green);
+}
+
+@supports ((backdrop-filter: none)) {
+  .overlay {
+    background: rgba(255, 255, 255, 0.01);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+  }
+}
+
+.overlay__info {
+  position: fixed;
+  width: 200px;
+  top: 50%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* width of overlay info for mobile */
+@media screen and (max-width: 500px) {
+  .overlay__info {
+    width: calc(50vw - var(--gapM) * 2);
+    margin-left: var(--gapM);
+    transform: translateY(-50%);
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.online-counter {
+  color: var(--white);
+  background-color: var(--green);
+}

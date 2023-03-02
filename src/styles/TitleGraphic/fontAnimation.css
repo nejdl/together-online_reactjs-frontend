@@ -1,0 +1,63 @@
+/* VARIABLE FONT */
+.tiny5x3-300 {
+  font-family: 'tiny_5x3regular';
+  font-variation-settings: 'wght' 300;
+}
+
+.pulsing-text {
+  -webkit-animation: pulse 1.5s alternate infinite;
+  animation: pulse 1.5s alternate infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.tiny5x3-20 {
+  font-family: 'tiny_5x3regular';
+  font-variation-settings: 'wght' 20;
+}
+
+.pulsing-text--reversed {
+  -webkit-animation: pulse_reverse 1.5s alternate infinite;
+  animation: pulse_reverse 1.5s alternate infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.paused {
+  -webkit-animation-play-state: paused !important;
+  animation-play-state: paused !important;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    font-variation-settings: 'wght' 300;
+  }
+  100% {
+    font-variation-settings: 'wght' 20;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    font-variation-settings: 'wght' 300;
+  }
+  100% {
+    font-variation-settings: 'wght' 20;
+  }
+}
+
+@-webkit-keyframes pulse_reverse {
+  0% {
+    font-variation-settings: 'wght' 20;
+  }
+  100% {
+    font-variation-settings: 'wght' 300;
+  }
+}
+
+@keyframes pulse_reverse {
+  0% {
+    font-variation-settings: 'wght' 20;
+  }
+  100% {
+    font-variation-settings: 'wght' 300;
+  }
+}

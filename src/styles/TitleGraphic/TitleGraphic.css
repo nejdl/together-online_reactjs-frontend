@@ -1,0 +1,102 @@
+/* h1 {
+  font: var(--fontHeadline);
+} */
+
+:root {
+  --font-size-xxxxs: 100px;
+  --font-size-xxxs: 100px;
+  --font-size-xxs: 110px;
+  --font-size-xs: 120px;
+  --font-size-s: 140px;
+  --font-size-m: 150px;
+  --font-size-l: 260px;
+}
+
+/* CONTAINER & BACKGROUND */
+#titleGraphicContainer {
+  height: 720px;
+  position: sticky;
+  z-index: -1;
+  max-width: 100vw;
+}
+
+@media screen and (max-width: 500px) {
+  #titleGraphicContainer {
+    overflow-x: hidden;
+  }
+}
+
+#titleGraphicMask {
+  /* background-color: white; */
+  height: 560px;
+  width: 385px;
+  overflow-x: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  transform-origin: top;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  object-fit: contain;
+}
+
+#purple-crosses {
+  position: absolute;
+  padding: 40px 28px;
+  z-index: 3;
+}
+
+.overlap-group {
+  height: 614px;
+  margin-left: -66px;
+  margin-top: -74.65px;
+  position: relative;
+  width: 527px;
+}
+
+/* CENTERED URL */
+.www {
+  left: 73px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 267px;
+}
+
+.together-online {
+  color: var(--black);
+  font-family: 'ABCGintoNord-UltraItalic-Trial';
+  font-size: 42px;
+  font-weight: 400;
+  left: 101px;
+  letter-spacing: 0;
+  line-height: 33px;
+  position: absolute;
+  top: 285px;
+}
+
+.net {
+  left: 375px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 350px;
+}
+
+/* DESKTOP POSITIONING */
+.www.title-text--desktop {
+  top: calc(266px + 180px);
+}
+
+.together-online.title-text--desktop {
+  top: calc(282px + 180px);
+}
+
+.net.title-text--desktop {
+  top: calc(350px + 180px);
+}
+
+.hidden {
+  display: none;
+}
